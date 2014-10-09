@@ -1,0 +1,141 @@
+.lt-ie8 {
+    .col-sm-2 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 14%;
+        }
+    }
+
+    .col-sm-3 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 22%;
+        }
+    }
+
+    .col-sm-4 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 30%;
+        }
+    }
+
+    .col-sm-5 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 39%;
+        }
+    }
+
+    .col-sm-6 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 47%;
+        }
+    }
+
+    .col-sm-7 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 56%;
+        }
+    }
+
+    .col-sm-8 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 64%;
+        }
+    }
+
+    .col-sm-9 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 73%;
+        }
+    }
+
+    .col-sm-10 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 81%;
+        }
+    }
+
+    .col-sm-11 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 89%;
+        }
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        @media (min-width: 760px){
+            width: 98%;
+        }
+    }
+}
+.main-header{
+    height: auto;
+    .logo{
+        top: 0px;
+    }
+}
+.main-nav .links .active a{
+    @media (min-width: 760px){
+        border-bottom: 2px solid rgb(130, 85, 46);
+    }
+    
+}
+#home{
+    margin: 20px auto;
+    @media (min-width: 760px){
+        .left-text{
+            width: 50%;
+        }
+    }
+
+}
+#about, #clients{
+    margin: 20px auto;
+}
+#clients{
+    .text-wrapper{
+        margin-top: 10px;
+    }
+}
+#contact{
+    form input{
+        height: 30px;
+    }
+    .submit{
+        padding: 5px;
+    }
+    @media (min-width: 760px){
+        .contact-form,.img-block
+        {
+            position: relative;
+            top: -0px;
+        }
+    }
+}
+.main-footer{
+    @media (min-width: 760px){
+        .external-links{
+            height: 30px;
+            width: 45%;
+            li{
+                float: left;
+            }
+        }
+        .copywrite{
+            width: 45%;
+            float: right;
+        }
+    }
+}
+
+.solutions-table .table .td{
+    width: 20%;
+}

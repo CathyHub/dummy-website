@@ -1,0 +1,174 @@
+.main-nav {
+    z-index: 9999;
+    height: 100%;
+    background-color: #1f211e;
+    position: fixed;
+    top: 0;
+    right: -120%;
+    width: 82%;
+    @include transition(right 0.3s ease);
+    @media (min-width: $screen-sm) {
+        right: auto;
+        display: block !important;
+        position: relative;
+        top: auto;
+        width: auto;
+        float: left;
+        // left: 10%;
+        background-color: transparent;
+        ul{
+            padding:0;
+            overflow: auto;
+        }
+    }
+    @media (min-width: 880px){
+        left: 6%;
+    }
+    &.active {
+        right: 0;
+    }
+    .links {
+        list-style: none;
+        margin: 0;
+        padding: 80px 0 0 0;
+        li {
+            border-top: 1px solid #000;
+            @media (min-width: $screen-sm-min) {
+                float: left;
+                border: none;
+                padding: 0;
+            }
+            &:hover{
+                .no-touch & {
+                    background-color: #000;
+                    @media (min-width: $screen-sm-min) {
+                        background-color: $dark-brown;
+                    }
+                }
+            }
+        }
+        .tel-nav{
+            color: #8f908f;
+            font-weight: 700;
+            &:hover {
+                background-color: transparent !important;
+            }
+            span{
+                font-size: 20px;
+            }
+        }
+
+        .active {
+            background-color: #000;
+            @media (min-width: $screen-sm-min){
+                background-color: $dark-brown;
+                a {
+                    padding-bottom: 3px;
+                    color: #fff !important;
+                }
+            }
+
+        }
+        a {
+            display: block;
+            
+            text-align: left;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 10px 25px;
+            span {
+                border-color: transparent;
+            }
+            &:hover {
+                text-decoration: none;
+                .no-touch & {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+        @media(min-width: $screen-sm-min){
+            padding: 0;
+            a{
+                font-size: 14px;
+                height: 80px;
+                color: $nav-color;
+                padding: 5px 9px;
+                &:hover{
+                    color: #fff;
+                }
+                span{
+                    margin-top: 28px;
+                    display: inline-block;
+                }
+            }
+            .tel-nav{
+                display: none;
+            }
+        }
+        @media (min-width: 800px){
+            .tel-nav{
+                display: block;
+                margin-top: 28px;
+            }
+            .phone{
+                color: #fff;
+                height: auto;
+            }
+        }
+        @media (min-width: $screen-md-min){
+            a{
+                padding: 5px 15px;
+            }
+        }
+    }
+}
+.tel{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    color: #fff;
+    padding: 5px 13px;
+    font-weight: 700;
+    font-size: 14px;
+    visibility: hidden;
+    @media (min-width: $screen-sm-min){
+        visibility: visible;
+        padding: 5px 3px;
+    }
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+    @media (min-width: 800px){
+        display: none;
+    }
+}
+
+.mob-nav-toggle {
+    float: right;
+    color: $nav-color;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    z-index: 99999;
+    font-size: 30px;
+    @media (min-width: $screen-sm-min) {
+        display: none;
+        position: fixed;
+    }
+    .icon {
+        @include transition(transform 0.3s ease);
+        @include transform(rotateY(0deg));
+    }
+    &.active .icon {
+        @include transform(rotateY(180deg));
+    }
+    &:hover {
+        text-decoration: none;
+        color: $dark-brown;
+    }
+    &.inner-header {
+        @include transition(color 0.3s ease);
+    }
+}

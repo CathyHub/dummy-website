@@ -1,0 +1,185 @@
+/* line 2, ../sass/ie7.scss */
+.lt-ie8 .col-sm-2 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 2, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-2 {
+    width: 14%;
+  }
+}
+/* line 9, ../sass/ie7.scss */
+.lt-ie8 .col-sm-3 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 9, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-3 {
+    width: 22%;
+  }
+}
+/* line 16, ../sass/ie7.scss */
+.lt-ie8 .col-sm-4 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 16, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-4 {
+    width: 30%;
+  }
+}
+/* line 23, ../sass/ie7.scss */
+.lt-ie8 .col-sm-5 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 23, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-5 {
+    width: 39%;
+  }
+}
+/* line 30, ../sass/ie7.scss */
+.lt-ie8 .col-sm-6 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 30, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-6 {
+    width: 47%;
+  }
+}
+/* line 37, ../sass/ie7.scss */
+.lt-ie8 .col-sm-7 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 37, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-7 {
+    width: 56%;
+  }
+}
+/* line 44, ../sass/ie7.scss */
+.lt-ie8 .col-sm-8 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 44, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-8 {
+    width: 64%;
+  }
+}
+/* line 51, ../sass/ie7.scss */
+.lt-ie8 .col-sm-9 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 51, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-9 {
+    width: 73%;
+  }
+}
+/* line 58, ../sass/ie7.scss */
+.lt-ie8 .col-sm-10 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 58, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-10 {
+    width: 81%;
+  }
+}
+/* line 65, ../sass/ie7.scss */
+.lt-ie8 .col-sm-11 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 65, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-11 {
+    width: 89%;
+  }
+}
+/* line 72, ../sass/ie7.scss */
+.lt-ie8 .col-sm-12 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  /* line 72, ../sass/ie7.scss */
+  .lt-ie8 .col-sm-12 {
+    width: 98%;
+  }
+}
+
+/* line 79, ../sass/ie7.scss */
+.main-header {
+  height: auto;
+}
+/* line 81, ../sass/ie7.scss */
+.main-header .logo {
+  top: 0px;
+}
+
+@media (min-width: 760px) {
+  /* line 85, ../sass/ie7.scss */
+  .main-nav .links .active a {
+    border-bottom: 2px solid #82552e;
+  }
+}
+
+/* line 91, ../sass/ie7.scss */
+#home {
+  margin: 20px auto;
+}
+@media (min-width: 760px) {
+  /* line 94, ../sass/ie7.scss */
+  #home .left-text {
+    width: 50%;
+  }
+}
+
+/* line 100, ../sass/ie7.scss */
+#about, #clients {
+  margin: 20px auto;
+}
+
+/* line 104, ../sass/ie7.scss */
+#clients .text-wrapper {
+  margin-top: 10px;
+}
+
+/* line 109, ../sass/ie7.scss */
+#contact form input {
+  height: 30px;
+}
+/* line 112, ../sass/ie7.scss */
+#contact .submit {
+  padding: 5px;
+}
+@media (min-width: 760px) {
+  /* line 116, ../sass/ie7.scss */
+  #contact .contact-form, #contact .img-block {
+    position: relative;
+    top: -0px;
+  }
+}
+
+@media (min-width: 760px) {
+  /* line 125, ../sass/ie7.scss */
+  .main-footer .external-links {
+    height: 30px;
+    width: 45%;
+  }
+  /* line 128, ../sass/ie7.scss */
+  .main-footer .external-links li {
+    float: left;
+  }
+  /* line 132, ../sass/ie7.scss */
+  .main-footer .copywrite {
+    width: 45%;
+    float: right;
+  }
+}
+
+/* line 139, ../sass/ie7.scss */
+.solutions-table .table .td {
+  width: 20%;
+}
